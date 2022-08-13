@@ -20,4 +20,4 @@ def install(c):
 
 @task
 def uninstall(c):
-    c.run("pip uninstall example-package")
+    c.run("pip uninstall -y example-package")
